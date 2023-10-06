@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Page.Title }}</title>
-    <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/dist/styles.css" | relURL }}">
   </head>
-  <body class="container">
+  <body>
     <main>
       {{ block "main" . }} {{ end }}
     </main>
