@@ -3,3 +3,4 @@ node_modules
 resources/
 assets/**/css/dist/
 desktop.ini
+public/
