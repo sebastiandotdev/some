@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Page.Title }}</title>
+    <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
+  </head>
+  <body class="container">
+    <main>
+      {{ block "main" . }} {{ end }}
+    </main>
+    <footer></footer>
+  </body>
+</html>

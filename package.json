@@ -1,0 +1,20 @@
+{
+  "name": "labs-company.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hugo server -D",
+    "format": "prettier . --cache --write",
+    "css": "pnpm tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/dist/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "10.4.16",
+    "postcss": "8.4.31",
+    "prettier": "3.0.3",
+    "tailwindcss": "3.3.3"
+  }
+}
