@@ -2,3 +2,5 @@ node_modules
 public/
 archetypes/
 *.yaml
+layouts/**/_default/baseof.html
+assets/**/dist/**/css/styles.css
