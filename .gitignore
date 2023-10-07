@@ -4,3 +4,5 @@ resources/
 static/**/css/dist/
 desktop.ini
 public/
+pnpm-lock.yaml
+package-lock.json

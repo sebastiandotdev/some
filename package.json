@@ -5,17 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "hugo server",
-    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints",
+    "build": "npm run tailwind:start && hugo --gc --minify --templateMetrics --templateMetricsHints ",
     "format": "prettier . --cache --write",
-    "tailwind:dev": "pnpm tailwindcss -i ./static/css/tailwind.css -o ./static/css/dist/styles.css --watch",
-    "tailwind:start" : "pnpm tailwindcss -i ./static/css/tailwind.css -o ./static/css/dist/styles.css" 
+    "tailwind:dev": "tailwindcss -i ./static/css/tailwind.css -o ./static/css/dist/styles.css --watch",
+    "tailwind:start" : "tailwindcss -i ./static/css/tailwind.css -o ./static/css/dist/styles.css" 
   },
   "keywords": [],
   "author": "castrogarciajs",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "10.4.16",
-    "postcss": "8.4.31",
     "prettier": "3.0.3",
     "tailwindcss": "3.3.3"
   }
