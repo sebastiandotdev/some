@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 
-baseURL = '/'
+baseURL = 'https://labs-company.vercel.app/'
 languageCode = 'en-us'
 title = 'Labs Company'
 timeZone = "America/Bogota"
