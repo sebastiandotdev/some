@@ -3,7 +3,4 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'Labs Company'
-timeZone = "America/Bogota"
-
-
-staticDir = 'static'
+timeZone = 'America/Bogota'
