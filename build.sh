@@ -25,8 +25,10 @@ mv hugo /usr/local/bin/
 rm -rf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 hugo version
 
+npm instala -g pnpm
+
 echo "Installing project dependencies..."
-npm install
-npm run compile:tailwind
+pnpm install
+pnpm run compile:tailwind
 echo "Running the build command..."
-npm run build
+pnpm run build
