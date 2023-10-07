@@ -1,6 +1,6 @@
 .hugo_build.lock
 node_modules
 resources/
-assets/**/css/dist/
+static/**/css/dist/
 desktop.ini
 public/

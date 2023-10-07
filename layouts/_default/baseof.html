@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="{{ "/css/dist/styles.css" | relURL }}">
   </head>
   <body>
+    <header class="sticky top-0 z-30">
+      {{ partial "navbar.html" }}
+
+    </header>
     <main>
       {{ block "main" . }} {{ end }}
     </main>
