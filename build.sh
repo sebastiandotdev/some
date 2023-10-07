@@ -25,7 +25,8 @@ mv hugo /usr/local/bin/
 rm -rf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 hugo version
 
-npm install -g pnpm
+echo "Installing pnpm..."
+curl -fsSL https://get.pnpm.io/install.sh | sh -
 
 echo "Installing project dependencies..."
 pnpm install
