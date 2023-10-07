@@ -4,3 +4,8 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'Labs Company'
 timeZone = "America/Bogota"
+
+
+staticDir = 'static'
+
+logo = '/images/logo-labs-company.png'
