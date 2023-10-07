@@ -27,6 +27,6 @@ hugo version
 
 echo "Installing project dependencies..."
 npm install
-
+npm run compile:tailwind
 echo "Running the build command..."
 npm run build
