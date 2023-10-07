@@ -8,7 +8,7 @@
     "build": "npm run tailwind:start && hugo --gc --minify --templateMetrics --templateMetricsHints ",
     "format": "prettier . --cache --write",
     "tailwind:dev": "tailwindcss -i ./static/css/tailwind.css -o ./static/css/dist/styles.css --watch",
-    "tailwind:start" : "tailwindcss -i ./static/css/tailwind.css -o ./static/css/dist/styles.css" 
+    "tailwind:start": "tailwindcss -i ./static/css/tailwind.css -o ./static/css/dist/styles.css"
   },
   "keywords": [],
   "author": "castrogarciajs",
