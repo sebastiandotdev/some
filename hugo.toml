@@ -7,5 +7,3 @@ timeZone = "America/Bogota"
 
 
 staticDir = 'static'
-
-logo = '/images/logo-labs-company.png'
