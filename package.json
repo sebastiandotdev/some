@@ -7,7 +7,7 @@
     "start": "hugo server",
     "build": "hugo --gc --minify --templateMetrics --templateMetricsHints",
     "format": "prettier . --cache --write",
-    "compile:tailwind": "pnpm tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/dist/styles.css --watch"
+    "compile:tailwind": "pnpm tailwindcss -i ./static/css/tailwind.css -o ./static/css/dist/styles.css --watch"
   },
   "keywords": [],
   "author": "castrogarciajs",
