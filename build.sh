@@ -29,6 +29,6 @@ npm install -g pnpm
 
 echo "Installing project dependencies..."
 pnpm install
-pnpm run compile:tailwind
+pnpm run tailwind:start
 echo "Running the build command..."
 pnpm run build
