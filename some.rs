@@ -1,0 +1,3 @@
+fn lib() {
+    println!("lib");
+}
