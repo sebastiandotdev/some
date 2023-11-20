@@ -1,6 +1,0 @@
-######################## default configuration ####################
-
-baseURL = '/'
-languageCode = 'en-us'
-title = 'Labs Company'
-timeZone = 'America/Bogota'

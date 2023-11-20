@@ -3,6 +3,7 @@
 
 
 # default versions
+# For building
 
 NODE_VERSION='18.16.1'
 GO_VERSION='1.21.1'
